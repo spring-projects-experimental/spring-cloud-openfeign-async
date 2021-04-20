@@ -14,28 +14,14 @@
 	<packaging>pom</packaging>
 	<name>Spring Cloud OpenFeign Async Dependencies</name>
 	<description>Spring Cloud OpenFeign Async Dependencies</description>
-	<properties>
-		<feign.version>11.1</feign.version>
-		<feign-form.version>3.8.0</feign-form.version>
-	</properties>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>io.github.openfeign</groupId>
-				<artifactId>feign-bom</artifactId>
-				<version>${feign.version}</version>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-openfeign-dependencies</artifactId>
+				<version>3.0.3-SNAPSHOT</version>
 				<type>pom</type>
 				<scope>import</scope>
-			</dependency>
-			<dependency>
-				<groupId>io.github.openfeign.form</groupId>
-				<artifactId>feign-form-spring</artifactId>
-				<version>${feign-form.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-openfeign-async-core</artifactId>
-				<version>${project.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
