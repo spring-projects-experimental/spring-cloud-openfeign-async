@@ -1,0 +1,5 @@
+= Spring Cloud OpenFeignAsync
+
+image::https://github.com/spring-cloud-incubator/spring-cloud-openfeign-async/workflows/Build/badge.svg?style=svg["Build",link="https://github.com/spring-cloud-incubator/spring-cloud-openfeign-async/actions"]
+
+Spring Cloud OpenFeign Async provides support for https://github.com/OpenFeign/feign/blob/master/core/src/main/java/feign/AsyncFeign.java[OpenFeign's `AsyncFeign`].
